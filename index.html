@@ -19,13 +19,14 @@
     <title>Document</title>
 </head>
 <body>
+
     <section id="headerSection" class="bg-dark">
-        <article id="headerA" class="row">
+        <article class="row">
         <div id="headerA" class="bg-dark col-4">
             <nav class="nav flex-column bg-transparent">
             <a class="nav-link" aria-current="page" href="#">Portfolio</a>
             <a class="nav-link" href="#AboutMe">About Me</a>
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#Projects">Projects</a>
             <a class="nav-link" href="#">Contact Me</a>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </nav>
@@ -36,10 +37,11 @@
             </div>
 
         </div>
-        <div id="headerB" class="bg-white col-8">
+        <div class="bg-white col-8 headerB">
 
-            
-                <img id="mainImg" src="./src/images/portfolio-font.png">  
+            <a href="#AboutMe"><img id="blackButton" class="buttonPic" src="./src/images/1.png"></a>
+
+            <img id="mainImg" src="./src/images/portfolio-font.png">  
             
 
         </div>
@@ -48,20 +50,114 @@
 
 
     <section class="container-fluid bg-dark text-white" id="AboutMe">
-        <h2 class="">About Me</h2>
+        <h1 class="text-center p-5">About Me</h1>
+        
+        <article class="row pb-5">
+            <div id="aboutMeArticle" class="col-7 order-2">
+            <h3 class="mb-4">Software Developer</h3>
+            <p>Hi! You can call me Jaycee, I am software developer from the Philippines. I have worked on many projects that involves application <strong>Designing</strong> ,<strong> Planning</strong> and <strong>Development</strong>. I follow a strict work etiquette of efficiency and proficiency. I always have keen eye for detail and have a passion for innovation. 
+            </p>
+            <p>Being a software developer is a stressful job. That is why I keep my team motivated and inspired. Having a well motivated team will make it easier to achieve that extra mile. Life is already hard as it is, that is why having a great team will make the job more fullfilling and fun.</p>
+            
+            <a href="#Projects">
+                <img class="buttonPic" src="./src/images/4.png" alt="">
+            </a>
+            
 
-        <div>
-        <h3>Software Developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestiae, nulla ut dolorum suscipit reiciendis dolor officia veritatis corrupti ex consequatur quod dolores totam, recusandae iste iure minus soluta amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas blanditiis sapiente excepturi, doloremque corrupti provident totam facilis, eligendi voluptatibus minus illum perferendis. Corporis ullam vitae voluptatem praesentium laboriosam, fuga facere?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque doloremque aspernatur commodi? Ad doloremque cumque, voluptas accusamus officia praesentium. Recusandae non et incidunt delectus possimus deleniti laborum eos veniam earum
-
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat fugit eius. Velit consequuntur fugit voluptas eaque ex molestiae dolor odio obcaecati recusandae error, minus ad, non facere quam odit?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius corporis non omnis quos repellat nemo inventore voluptatum, ullam in rem similique quidem commodi architecto ipsam tempore explicabo, autem voluptatem blanditiis.
-        </p>
-        </div>
-
+            </div>
+            <div id="picContainer" class="col-5 order-1 text-center">
+            <img id="profileVertical" src="./src/images/profileVertical.PNG" alt="">
+            </div>
+        </article>
     </section>
 
+    <section id="Projects" class="headerB p-5 row">
+        <article class="row text-center col-11 mb-5">
+            <div class="card m-5" >
+                <img class="card-img-top" src="./src/images/capstone1.png">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio</h5>
+                    <p class="card-text text-justify"> A compilation of materials that exemplifies your skills, qualifications, training and experiences.</p>
+                    <a href="#capstone1" class="btn btn-dark">Go somewhere</a>
+                </div>
+            </div>
 
+            <div class="card m-5" >
+                <img class="card-img-top" src="./src/images/capstone2.png">
+                <div class="card-body">
+                    <h5 class="card-title">TBD</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#capstone2" class="btn btn-dark">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card m-5" >
+                <img class="card-img-top" src="./src/images/capstone3.png">
+                <div class="card-body">
+                    <h5 class="card-title">TBD</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#capstone3" class="btn btn-dark">Go somewhere</a>
+                </div>
+            </div>
+        </article>
+        <article class=" container col-1">
+            <img id="projectSectionTitle" src="./src/images/project-title.png" alt="">
+        </article>
+    </section>
+
+    <section id="capstone1" class="headerB">
+        <article class="row pb-5">
+            
+            <div id="" class="col-4 order-2 description">
+                <h2>Portfolio</h2>
+            <p>This Portfolio is inspired by the characteristics of a Panda. 
+            </p>
+            <p><strong>Gentle</strong>, <strong>Minimal</strong> and <strong>Playful</strong></p>
+
+            <a href="#capstone2"><img id="" class="buttonPic-sm" src="./src/images/1.png"></a>
+            
+            </div>
+            <div id="" class="col-7 order-1 text-center">
+            <img class="capstoneImg" src="./src/images/panda.PNG" alt="">
+            </div>
+        </article>
+    </section>
+
+    <section id="capstone2" class="headerB">
+        <article class="row pb-5">
+            
+            <div id="" class="col-4 order-2 description">
+                <h2>TBD</h2>
+            <p>This Capstone is inspired by the characteristics of a Wolf. 
+            </p>
+            <p><strong>Loyal</strong>, <strong>Decisive</strong> and <strong>Confident</strong></p>
+
+            <a href="#capstone3"><img id="" class="buttonPic-sm" src="./src/images/1.png"></a>
+            
+            </div>
+            <div id="" class="col-7 order-1 text-center">
+            <img class="capstoneImg" src="./src/images/wolf.PNG" alt="">
+            </div>
+        </article>
+    </section>
+
+    <section id="capstone3" class="headerB">
+        <article class="row pb-5">
+            
+            <div id="" class="col-4 order-2 description">
+                <h2>TBD</h2>
+            <p>This Capstone is inspired by the characteristics of a Tiger. 
+            </p>
+            <p><strong>Fierce</strong>, <strong>Tenacious</strong> and <strong>Strong</strong></p>
+
+            <a href="#capstone3"><img id="" class="buttonPic-sm" src="./src/images/1.png"></a>
+            
+            </div>
+            <div id="" class="col-7 order-1 text-center">
+            <img class="capstoneImg" src="./src/images/tiger.PNG" alt="">
+            </div>
+        </article>
+    </section>
 
 
 
