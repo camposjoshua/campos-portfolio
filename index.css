@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.nav {
+    margin-top: 50px;
+}
+
+.row {
+    margin:0;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    font-size: 25px;
+}
+#headerA {
+    padding-left: 40px;
+}
+
+#headerB {
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgba(149,149,149,1) 100%);
+}
+
+#nameHolder {
+    padding-top: 350px;
+}
+
+#headerLastName {
+    positio:absolute;
+    color: white;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+#headerFirstName {
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainImg {
+    position: relative;
+    left: 200px;
+    top: 230px;
+}
+
