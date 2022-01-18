@@ -74,9 +74,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
     font-size: 60px;
 }
 
-#nameHolder {
-    padding-top: 350px;
-}
+
 
 #headerLastName {
     positio:absolute;
@@ -141,11 +139,6 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
     left: 531px;
 }
 
-#aboutMeArticle {
-    padding-right:200px;
-}
-
-
 
 .w3-green{
     width: 50%;
@@ -185,6 +178,18 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
 
 #projectSectionTitle:hover {
     height: 450px;
+}
+
+#Projects {
+    padding:50px;
+}
+
+#nameHolder {
+    padding-top: 350px;
+}
+
+#aboutMeArticle-lg {
+    padding-right:200px;
 }
 
 .lg-none {
@@ -275,6 +280,28 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
         letter-spacing: 5px;
     }
 
+    .sm-capstoneImg {
+    position: relative;
+    border-radius: 50px;
+}
+    .sm-px-5 {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .sm-capstone-order {
+        order: 2;
+    }
+
+    #messagehere {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 30px;
+    }
+
+    .sm-text-black {
+        color: black;
+    }
 
 
 }
