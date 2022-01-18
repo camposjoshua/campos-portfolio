@@ -106,24 +106,15 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
     transition: .5s ease;
 }
 
-#projectSectionTitle:hover {
-    height: 450px;
-}
-
 .capstoneImg {
     position: relative;
     border-radius: 50px;
     height: 500px;
     transition: .5s ease;
-
+    
 }
 
-.capstoneImg:hover {
-    position: relative;
-    border-radius: 500px;
-    height: 500px;
 
-}
 
 #profileVertical {
     position: relative;
@@ -136,13 +127,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
 }
 
 #picContainer {
-
-}
-
-#picContainer:hover #profileVertical {
-    filter: grayscale(0%);
-    border-radius: 500px;
-    height:700px;
+    
 }
 
 
@@ -160,18 +145,6 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
     transition: .5s ease;
 }
 
-.buttonPic-sm:hover {
-    position: absolute;
-    height: 70px;
-    width: 70px;
-}
-
-.buttonPic:hover {
-    position: absolute;
-    height: 140px;
-    width: 140px;
-}
-
 #blackButton {
     top: 300px;
     left: 531px;
@@ -180,6 +153,8 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
 #aboutMeArticle {
     padding-right:200px;
 }
+
+
 
 .w3-green{
     width: 50%;
@@ -193,13 +168,6 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
     
 }
 
-.card:hover {
-    width: 350px;
-    border-radius: 30px;
-    background-color: rgb(255, 255, 255,0.8);
-    transition: .5s ease;
-    
-}
 
 .card-img-top {
     padding-top: 8px;
@@ -222,28 +190,90 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3
     letter-spacing: 5px;
 }
 
+@media only screen and (min-width: 768px) {
+
+#projectSectionTitle:hover {
+    height: 450px;
+}
+
+.lg-none {
+    display: none;
+}
+
+.capstoneImg:hover {
+    position: relative;
+    border-radius: 500px;
+    height: 500px;
+
+}
+
+#picContainer:hover #profileVertical {
+    filter: grayscale(0%);
+    border-radius: 500px;
+    height:700px;
+}
+
+.buttonPic-sm:hover {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+
+.buttonPic:hover {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+}
+
+.card:hover {
+    width: 350px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255,0.8);
+    transition: .5s ease;
+    
+}
+
+}
+
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  #nameHolder {
-    padding-top: 100px;
-    width: 300px;
-    margin-left: 10px;
-  }
+    /* For mobile phones: */
+    #nameHolder {
+        padding-top: 100px;
+        width: 300px;
+        margin-left: 10px;
+    }
+    
+    #nav-1 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 5px;
+    }
+    
+    .sm-none {
+        display:none;
+    }
+    
+    #sm-about-me {
+        order:2;
+        padding: 5px;
+    }
+    
+    #profileVertical {
+    }
+    
+    .sm-headerB {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgba(149,149,149,1) 100%);
+    }
 
-  #nav-1 {
-      font-size: 30px;
-      font-weight: bold;
-      font-family: 'Bebas Neue', cursive;
-      letter-spacing: 5px;
-  }
-
-  .sm-none {
-      display:none;
-  }
-
-
-
-
+    .sm-title {
+        margin-top: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 5px;
+    }
 
 
 
